@@ -35,7 +35,7 @@
         var contactForm = $('.main-form');
 
 
-        contactForm.on('submit1', function() {
+        contactForm.on('submit', function() {
             var requiredFields = $(this).find('.required'),
                 formData = contactForm.serialize(),
                 formAction = $(this).attr('action');
@@ -75,7 +75,7 @@
                             }
                         }); 
                     } else {
-                        //alert(data);
+                        alert(data);
                     }
                     
                 });

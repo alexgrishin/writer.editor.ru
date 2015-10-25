@@ -89,7 +89,7 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section form-clients">
 		<div class="container">
 			<div class="row">
 				<div class="column-40 form-column text-center">
@@ -97,11 +97,12 @@
 						<h4>Отправьте запрос</h4>
 						<p class="main-form-description">Быстрый ответ в рабочие дни и выходные. Работаем допоздна.</p>
 						<label for="name">Ваше имя <span class="required">*</span></label>
-						<input type="text" name="name" id="name" class="required">
+						<input type="text" name="name" id="name">
 						<label for="email">Email <span class="required form-email">*</span></label>
 						<input type="email" name="email" id="email" class="required">
 						<label for="message">Что нужно написать?</label>
 						<textarea name="message" id="message"></textarea>
+						<input type="hidden" name="_subject" value="Запрос с writer.editor.ru" />
 						<div class="submit-holder">
 							<div class="submit-arrow animate-arrow">Давайте начнем <span>взаимовыгодное</span> сотрудничество</div>
 							<input type="submit" name="submit" id="submit" value="Отправить запрос">
