@@ -10,8 +10,8 @@
 
         var preloader = $("body").hasClass('no-preloader') ? false : true;
 
-        var minimumTime = 500,
-            preloaderDelay = 500,
+        var minimumTime = 400,
+            preloaderDelay = 400,
             preloaderFadeOutTime = 800;
 
         function hidePreloader() {
@@ -35,7 +35,7 @@
         var contactForm = $('.main-form');
 
 
-        contactForm.on('submit', function() {
+        contactForm.on('submit1', function() {
             var requiredFields = $(this).find('.required'),
                 formData = contactForm.serialize(),
                 formAction = $(this).attr('action');
